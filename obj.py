@@ -14,7 +14,7 @@ class Student:
         return self.grade >= 60
 
 
-
+#  This is python
 student1 = Student(name="John", age=19, grade=75)
 
 
