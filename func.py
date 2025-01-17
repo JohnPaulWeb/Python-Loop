@@ -1,7 +1,6 @@
 
  # This is Game
 
-
 import pygame.examples.aliens as aliens
 aliens
 
@@ -39,6 +38,7 @@ basket_y = SCREEN_HEIGHT - basket_height - 10
 basket_speed = 10
 
 # Object properties
+
 object_width = 20
 object_height = 20
 object_x = random.randint(0, SCREEN_WIDTH - object_width)
@@ -68,7 +68,7 @@ while running:
 
     # Move the falling object
     object_y += object_speed
-
+    
     # Check if the object hits the basket
     if (
         object_y + object_height > basket_y
